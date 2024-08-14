@@ -67,7 +67,7 @@ section {
 
 footer {
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
     url("../images/swift-12.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,7 +86,7 @@ footer p {
     font-size: 20px;
     line-height: 25px;
     margin-right: 20px;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 footer ul {
@@ -101,7 +101,7 @@ footer li {
 
 footer a {
     color: white;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 @media (max-width: 900px) {
