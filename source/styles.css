@@ -146,6 +146,11 @@ section.second-section {
     grid-template-columns: 1fr 2fr 2fr;
 }
 
+.embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+
 .card {
     background: white;
     margin: 30px 0;
@@ -157,6 +162,10 @@ section.second-section {
 
 .card-footer {
     padding: 0 30px 30px;
+}
+
+.card-header.grid {
+    grid-gap: 0;
 }
 
 .text-center {
@@ -229,4 +238,11 @@ footer a {
         padding: 30px 0;
     }
 
+    .card-header img {
+        display: none;
+    }
+
+    .embed {
+        aspect-ratio: 16 / 9;
+    }
 }
