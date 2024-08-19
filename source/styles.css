@@ -152,7 +152,9 @@ section.second-section {
 }
 
 .embed-photo {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .card {
