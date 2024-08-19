@@ -147,8 +147,12 @@ section.second-section {
 }
 
 .embed {
-    width: 100%;
+    max-width: 100px;
     aspect-ratio: 1 /1;
+}
+
+.embed-photo {
+    display: block;
 }
 
 .card {
@@ -175,6 +179,7 @@ section.second-section {
 .summer {
     width: 350px;
 }
+
 footer {
     color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
